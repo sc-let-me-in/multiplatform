@@ -54,16 +54,6 @@ kotlin {
                 api(project(":common"))
 
                 implementation(Versions.Libs.COROUTINES_CORE)
-//                implementation(Versions.Libs.SERIALIZATION_CORE)
-
-//                api("io.ktor:ktor-client-core:${Versions.Libs.KTOR}")
-//                implementation("io.ktor:ktor-client-json:${Versions.Libs.KTOR}")
-//                implementation("io.ktor:ktor-client-serialization:${Versions.Libs.KTOR}")
-//                implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.3")
-
-//                api(Versions.Libs.MULTIPLATFORM_SETTINGS)
-//                api(Versions.Libs.UUID)
-//                api("io.ktor:ktor-client-cio:${Versions.Libs.KTOR}")
             }
         }
 
