@@ -65,6 +65,14 @@ kotlin {
             dependsOn(commonMain)
         }
     }
+
+    targets.all {
+        compilations.all {
+            kotlinOptions {
+                freeCompilerArgs = freeCompilerArgs + "-Xallow-result-return-type"
+            }
+        }
+    }
 }
 
 val packForXcode by tasks.creating(Sync::class) {
